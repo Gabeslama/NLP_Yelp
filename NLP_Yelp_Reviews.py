@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 12 12:03:52 2018
 
-@author: gabrielslama
-"""
 
 import numpy as np
 import pandas as pd
@@ -19,7 +15,7 @@ from sklearn.pipeline import Pipeline
 
 
 
-yelp = pd.read_csv('/Users/gabrielslama/Desktop/Data Science&ML/yelp.csv')
+yelp = pd.read_csv('yelp.csv')
 
 #looking at data 
 yelp.head()
